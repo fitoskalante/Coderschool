@@ -1,0 +1,48 @@
+.nav-link {
+    color: gray;
+    font-weight: 600
+}
+
+.nav-link:hover {
+    color: red;
+}
+
+section {
+    min-height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.main-content {
+    padding-top: 70px;
+    background-color: white;
+    min-height: 800px;
+}
+
+.cards {
+    display: flex;
+    min-height: 800px;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+    background-color: lightgray;
+}
+
+.card {
+    margin: 20px;
+    min-height: 400px;
+}
+
+.main-logo {
+    width: 200px;
+    height: 200px;
+}
+
+.form {
+    background-color: red;
+    text-align: inherit;
+    padding: 20px;
+}
